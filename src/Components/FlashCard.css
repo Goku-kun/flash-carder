@@ -1,0 +1,129 @@
+/* Mobile Landscape Screen Sizes */
+
+@media only screen and (min-width: 370px) {
+  
+  .card {
+    text-align: left;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-family: Arial, Sans-Serif;
+    width: 400px;
+    height: 500px;
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    color: #EAEBEB;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .card {
+    width: 350px;
+    height: 500px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+  }
+
+  .card.flip {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+  }
+
+  .card .face {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0.1px);
+  }
+
+  .card .back {
+    transform: rotateY(180deg);
+  }
+
+  .card .face {
+    border-radius: 10px;
+  }
+
+  .card .front {
+    position: absolute;
+    left: 0;
+    top:0;
+    color: #ffffff;
+    background-color: #101010;
+    background-image: url("../resources/card-front.jpg");
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .card .back {
+    font-size: 18px;
+    line-height: 1.4em;
+    background-color: black;
+    background-size: cover;
+    color: #4D4A8A;
+    background-image: url("../resources/card-back-2.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+  li li {
+    list-style: none;
+  }
+
+  .card .back img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card .back .description {
+    padding: 30px;
+  }
+
+  li.main {
+    list-style: none;
+  }
+
+
+  .card h2 {
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 0.7em;
+    text-overflow: ellipsis;
+  }
+
+}
+
+
+/* Tablet screen Sizes */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Desktop Screen Sizes */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* Large Screen sizes */
+
+@media only screen and (min-width: 1440px) {
+  .card {
+    width: 50vw;
+    height: 92vh;
+  }
+}
+
