@@ -7,8 +7,7 @@
     "examples": [
       "They thought of it as Panacea since it filled all the gaps in their life."
     ],
-    "origin": "",
-    "funfact": "Panacea is the name of an ancient Greed Goddess of Healing."
+    "origin": "Panacea is the name of an ancient Greed Goddess of Healing. Stem of panakḗs “all-healing” (pan-all + akḗs- a cure)"
   },
   {
     "word": "Impecunious",
@@ -18,7 +17,8 @@
     "antonyms": ["wealthy", "prosperous", "rich", "moneyed", "loaded"],
     "examples": [
       "Gambling would make your landlord throw you out for being impecunious."
-    ]
+    ],
+    "origin": "Im-lack + pecunious-wealthy"
   },
   {
     "word": "Quandary",
@@ -38,6 +38,29 @@
     "antonyms": ["certain", "determined", "clear", "definite", "known", "obvious"],
     "examples": [
       "Washington faces a similar quandary in Year 2 of its rebuild under Rivera."
-    ]
+    ],
+    "origin": "from ambi- prefix meaning “both, around” + -igere combining form of agere “to drive, lead, act”"
+  },
+  {
+    "word": "Adroit",
+    "pos": "adjective",
+    "meaning": ["expert or nimble in the use of the hands or body.", "cleverly skillful, resourceful, or ingenious"],
+    "synonyms": ["skillful", "clever", "deft", "apt", "adept", "artful", "masterful", "nimble", "proficient"],
+    "antonyms": ["awkward", "clumsy", "ignorant", "incompetent", "inept", "unable", "unskilled", "dense"],
+    "examples": [
+      "There was no applause as the little man outwitted his follower by an adroit dodge under the ticket wagon."
+    ],
+    "origin": "First recorded in french to mean 'elegant', 'skillful'"
+  },
+  {
+    "word": "Assiduous",
+    "pos": "adjective",
+    "meaning": ["constant in application or effort; working diligently at a task; persevering; industrious; meticulous", "constant; unremitting"],
+    "synonyms": ["diligent", "sedulous", "studious", "continuous", "tireless", "persistent", "zealous", "scrupulous"],
+    "antonyms": ["neglectful", "negligent", "lethargic", "indifferent", "lazy"],
+    "examples": [
+      "Any life, despite the most assiduous biographer’s investigations, remains somewhat of a mystery."
+    ],
+    "origin": "from Latin assiduus, equivalent to assid(ēre) “to sit near or beside, dwell close to”"
   }
 ]

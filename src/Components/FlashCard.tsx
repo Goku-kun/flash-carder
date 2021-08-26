@@ -4,13 +4,15 @@ import "./FlashCard.css";
 import { ArrowBackIosRounded, ArrowForwardIosRounded } from '@material-ui/icons';
 
 interface Properties {
-  words: ({ word: string, meaning: string[], synonyms: string[], antonyms: string[], examples: string[], pos: string, funfact?: string, origin?: string })[],
+  words: ({ word: string, meaning: string[], synonyms: string[], antonyms: string[], examples: string[], pos: string, origin?: string })[],
   seenWords: any[],
   setSeenWords: any
 }
 
 function FlashCard({ words, seenWords, setSeenWords }: Properties) {
-  const [word, setWord] = useState(words[Math.floor(Math.random() * words.length)]);
+  const [index, setIndex] = useState(Math.floor(Math.random() * words.length));
+  const [previousIndex, setPreviousIndex] = useState(index);
+  const [word, setWord] = useState(words[index]);
 
 
   function flipCard(event: React.MouseEvent): void {
@@ -25,10 +27,25 @@ function FlashCard({ words, seenWords, setSeenWords }: Properties) {
     if (card !== null) {
       card.classList.remove("flip");
     }
+    let newerIndex = Math.floor(Math.random() * words.length);
+    while (index === newerIndex) {
+      newerIndex = Math.floor(Math.random() * words.length);
+    }
+    setPreviousIndex(index);
+    setIndex(newerIndex);
 
     setSeenWords([word, ...seenWords]);
 
-    setWord(words[Math.floor(Math.random() * words.length)]);
+    setWord(words[newerIndex]);
+  }
+
+  function previousWord(e: React.MouseEvent): void {
+    var card = document.querySelector(".card");
+    if (card !== null) {
+      card.classList.remove("flip");
+    }
+    setIndex(previousIndex);
+    setWord(words[previousIndex]);
   }
 
   return (
@@ -47,22 +64,21 @@ function FlashCard({ words, seenWords, setSeenWords }: Properties) {
                 <li><strong>Part of Speech</strong>: { word.pos }</li>
                 <li><strong>Synonyms</strong>: { word.synonyms.join(", ") }</li>
                 <li><strong>Antonyms</strong>: { word.antonyms.join(", ") }</li>
-                <li><strong>Example(s): </strong>
+                <li><strong>Example: </strong>
                   <br />
                   <ul>
                     { word.examples.map(eg => <li key={ eg }>{ eg }</li>) }
                   </ul>
                 </li>
                 { word.origin && <li><strong>Origin:</strong>{ word.origin }</li> }
-                { word.funfact && <li><strong>Fun fact: </strong>{ word.funfact }</li> }
               </ul>
             </div>
           </div>
         </div>
       </Paper>
       <div className="navigator">
-        <Button color="secondary" variant="contained" style={ { fontSize: "2rem" } } startIcon={ <ArrowBackIosRounded style={ { fontSize: "1.8rem" } } /> }>Previous Word </Button>
-        <Button color="primary" onClick={ newWord } variant="contained" style={ { fontSize: "2rem" } } endIcon={ <ArrowForwardIosRounded style={ { fontSize: "1.8rem" } } /> }> Next Word</Button>
+        <Button color="secondary" onClick={ previousWord } variant="contained" style={ { fontSize: "2rem" } } startIcon={ <ArrowBackIosRounded style={ { fontSize: "1.8rem" } } /> }>Previous Word </Button>
+        <Button color="primary" onClick={ newWord } variant="contained" style={ { fontSize: "2rem" } } endIcon={ <ArrowForwardIosRounded style={ { fontSize: "1.8rem" } } /> }> New Word</Button>
       </div>
     </>
   );
