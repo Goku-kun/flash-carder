@@ -6,6 +6,7 @@
     align-items: center;
     flex-flow: column wrap;
     gap: 10px;
+    overflow: hidden;
   }
   .navigator {
     width: 100%;
