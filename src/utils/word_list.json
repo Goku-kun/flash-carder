@@ -1,9 +1,43 @@
 [{
-  "word": "Panacea",
-  "meaning": "An unreal cure all drug",
-  "synonyms": ["cure-all", "elixir"],
-  "antonyms": ["disease", "injury"],
-  "examples": [
-    "They thought of it as Panacea since it filled all the gaps in their life."
-  ]
-}]
+    "word": "Panacea",
+    "pos": "noun",
+    "meaning": ["An unreal cure all drug", "Hypothetical disease curing drug"],
+    "synonyms": ["cure-all", "elixir"],
+    "antonyms": ["disease", "injury"],
+    "examples": [
+      "They thought of it as Panacea since it filled all the gaps in their life."
+    ],
+    "origin": "",
+    "funfact": "Panacea is the name of an ancient Greed Goddess of Healing."
+  },
+  {
+    "word": "Impecunious",
+    "pos": "adjective",
+    "meaning": ["Not having enough money to pay for necessities"],
+    "synonyms": ["hard up", "straightened circumstances", "penniless", "penurious", "pinched", "parsimonious", "destitute", "insolvent"],
+    "antonyms": ["wealthy", "prosperous", "rich", "moneyed", "loaded"],
+    "examples": [
+      "Gambling would make your landlord throw you out for being impecunious."
+    ]
+  },
+  {
+    "word": "Quandary",
+    "pos": "noun",
+    "meaning": ["a state of uncertainty, or perplexity, or puzzlement", "a dilemma as to do what"],
+    "synonyms": ["difficulty", "dilemma", "predicament", "impasse", "plight", "puzzle", "uncertainty"],
+    "antonyms": ["solution", "boon", "success", "advantage", "good fortune"],
+    "examples": [
+      "Washington faces a similar quandary in Year 2 of its rebuild under Rivera."
+    ]
+  },
+  {
+    "word": "Ambiguous",
+    "pos": "adjective",
+    "meaning": ["open to or having several possible meanings or interpretations", "of doubtful or uncertain nature; difficult to comprehend, distinguish, or classify"],
+    "synonyms": ["cryptic", "dubious", "engimatic", "equivocal", "inconclusive", "obscure", "opaque", "puzzling", "questionable", "vague"],
+    "antonyms": ["certain", "determined", "clear", "definite", "known", "obvious"],
+    "examples": [
+      "Washington faces a similar quandary in Year 2 of its rebuild under Rivera."
+    ]
+  }
+]
