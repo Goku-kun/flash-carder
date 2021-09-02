@@ -62,5 +62,60 @@
       "Any life, despite the most assiduous biographer’s investigations, remains somewhat of a mystery."
     ],
     "origin": "from Latin assiduus, equivalent to assid(ēre) “to sit near or beside, dwell close to”"
+  },
+  {
+    "word": "Spurious",
+    "pos": "adjective",
+    "meaning": ["not genuine, authentic, or true; not from the claimed, pretended, or proper source; counterfeit.", "of illegitimate birth; bastard"],
+    "synonyms": ["bastard", "false", "sham", "bogus", "mock", "feigned", "phony", "deceitful"],
+    "antonyms": ["legitimate", "original", "genuine", "real", "true", "valid"],
+    "examples": [
+      "President Obama repeated the spurious gender wage gap statistic in his State of the Union address."
+    ],
+    "origin": "from Latin spurius bastard"
+  },
+  {
+    "word": "Prolix",
+    "pos": "adjective",
+    "meaning": ["extended to great, unnecessary, or tedious length; long and wordy."],
+    "synonyms": ["verbose", "protracted", "lengthy", "tedious", "windy"],
+    "antonyms": ["short", "un-extended", "small"],
+    "examples": [
+      "Glenn Greenwald is raising a stink about this in his usual prolix way, and so on and so on."
+    ],
+    "origin": "from Latin prolixus long, extended"
+  },
+  {
+    "word": "Surly",
+    "pos": "adjective",
+    "meaning": ["churlishly rude or bad-tempered", "churlishly rude or bad-tempered", "dark or dismal; menacing; threatening"],
+    "synonyms": ["sullen", "uncivil", "brusque", "irascible", "splenetic", "choleric", "threatening"],
+    "antonyms": ["bright", "happy", "cheerful", "kind", "nice", "pleasant"],
+    "examples": [
+      "Cramped seats, mask requirements and surly service aren’t the worst part of international airline travel."
+    ],
+    "origin": "from sirly: lordly, arrogant"
+  },
+  {
+    "word": "Pervasive",
+    "pos": "adjective",
+    "meaning": ["spread throughout"],
+    "synonyms": ["common", "inescapable", "omnipresent", "prevalent", "rife", "ubiquitous", "universal"],
+    "antonyms": ["rare", "scarce", "uncommon", "light"],
+    "examples": [
+      "That will mean pervasive discounting with a side of free shipping to coax shoppers to buy."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Opulent",
+    "pos": "adjective",
+    "meaning": ["Wealthy person"],
+    "synonyms": ["wealthy", "rich", "affluent", "luxurious", "lavish", "extravagant"],
+    "antonyms": ["economical", "poor", "small", "destitute"],
+    "examples": [
+      "Shadow and Bone’s opulent settings and production design work against it, because the story isn’t rich enough to fill it."
+    ],
+    "origin": "Latin opulentus wealthy"
   }
 ]
