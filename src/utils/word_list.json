@@ -117,5 +117,104 @@
       "Shadow and Bone’s opulent settings and production design work against it, because the story isn’t rich enough to fill it."
     ],
     "origin": "Latin opulentus wealthy"
+  },
+  {
+    "word": "Obdurate",
+    "pos": "adjective",
+    "meaning": ["unmoved by persuasion, pity or tender feelings", "stubborn", "unyielding"],
+    "synonyms": ["stubborn", "inflexible", "implacable", "obstinate", "callous", "extravagant"],
+    "antonyms": ["soft", "tractable", "humble", "repentant"],
+    "examples": [
+      "Yet instead of scaling back their political ambitions in the face of an obdurate reality, they are escalating them."
+    ],
+    "origin": "ob + dūr(us) hard + ate"
+  },
+  {
+    "word": "Torpid",
+    "pos": "adjective",
+    "meaning": ["dormat as an hibernating animal", "sluggish"],
+    "synonyms": ["inactive", "sluggish", "lethargic", "slow", "apathetic"],
+    "antonyms": ["energetic", "active", "briskful", "quick", "alacrity"],
+    "examples": [
+      "They were torpid, as you or I might be if we’d spent a long period locked-down and socially isolated."
+    ],
+    "origin": "from Latin torpidus “numb or, stiff”"
+  },
+  {
+    "word": "Arcane",
+    "pos": "adjective",
+    "meaning": ["Known or understood by very few"],
+    "synonyms": ["mysterious", "secret", "obscure", "esoteric"],
+    "antonyms": ["common", "commonplace", "known", "normal", "outward"],
+    "examples": [
+      "The bills are long and complex, with arcane differences around industry policy, licensing and other details."
+    ],
+    "origin": "Latin arcānus, equivalent to arc(ēre) to shut up, keep (derivative of arca a chest, box)"
+  },
+  {
+    "word": "Nadir",
+    "pos": "adjective",
+    "meaning": ["the lowest point; point of greatest adversity or despair."],
+    "synonyms": ["bottom", "floor", "depths", "rock bottom"],
+    "antonyms": ["top", "zenith", "peak"],
+    "examples": [
+      "At their nadir in April, total hours worked were 16% lower than January in both countries."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Plodding",
+    "pos": "adjective|noun",
+    "meaning": ["to walk heavily or move laboriously; trudge", "a sound of a heavy tread."],
+    "synonyms": ["toil", "moil", "labour"],
+    "antonyms": ["tiptoe", "breeze", "walk lightly"],
+    "examples": [
+      "The tunes might be used to bang the drum to, but they provide a plodding pulse for American stamina."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Hedonist",
+    "pos": "noun",
+    "meaning": ["a person whose life is devoted to the pursuit of pleasure and self-gratification."],
+    "synonyms": ["debauchee", "epicure", "glutton", "profligate"],
+    "antonyms": ["puritan", "ascetic", "hermit"],
+    "examples": [
+      "The old Don was a loving father and husband, and a hedonist."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Wariness",
+    "pos": "noun",
+    "meaning": ["the state or quality of being wary."],
+    "synonyms": ["vigilance", "alertness", "deliberation", "attention"],
+    "antonyms": ["carelessness", "disregard", "ignorance"],
+    "examples": [
+      "With the wariness was something like question, and almost disbelief."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Cavalier",
+    "pos": "noun|adjective|verb",
+    "meaning": ["horseman, especially a knight", "disdainful; unceremonious", "to be haughty"],
+    "synonyms": ["condescending", "haughty", "disdainful", "unceremonious", "domineering"],
+    "antonyms": ["humble", "reticent", "shy"],
+    "examples": [
+      "The metrics are good, and I don’t say that with a cavalier attitude."
+    ],
+    "origin": ""
+  },
+  {
+    "word": "Disparaging",
+    "pos": "verb",
+    "meaning": ["o speak of or treat slightingly; depreciate; belittle"],
+    "synonyms": ["mock", "discredit", "ridicule", "demean", "derogate", "slander"],
+    "antonyms": ["admire", "approve", "command"],
+    "examples": [
+      "The greater Wine’s popular appeal grew, the more Museveni disparaged him."
+    ],
+    "origin": ""
   }
 ]
