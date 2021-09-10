@@ -1,14 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import FlashCard from './Components/FlashCard';
-import wordlist from "./utils/word_list.json";
+import { getWords, word } from './utils/getwords';
+// import { db, firebaseApp } from "./utils/firebase";
+// import { getWords } from "./utils/getwords";
 
 function App() {
-  const [seenWords, setSeenWords] = useState([]);
+
+  var [words, setWords]: [word[], any] = useState([]);
+
+  useEffect(function () {
+    async function initialize() {
+      var words: word[] = await getWords();
+      setWords(words);
+    }
+    initialize();
+  }, [])
   return (
     <div className="App">
-      <FlashCard words={ wordlist } seenWords={ seenWords } setSeenWords={ setSeenWords } />
-
+      <FlashCard words={ words } />
     </div>
   );
 }
